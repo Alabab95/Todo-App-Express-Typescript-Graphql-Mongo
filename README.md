@@ -83,6 +83,6 @@ Graphiql : https://github.com/graphql/graphiql
 
 Note: Need to pass Authorization Bearer Token in Header to access this endpoint obtained from public endpoint while Signup/Login.
 
-http://localhost:4040/graphql/private
+http://localhost:8000/graphql/private
 
 List Of Queries & Mutations
