@@ -1,7 +1,7 @@
 Public : 
 http://localhost:8000/graphql/public
 
-- Mutation
+- Mutations :
 
 • Login
 
@@ -25,7 +25,16 @@ mutation createUser{
 }
 ```
 
-### Protected
+After Signing in grab the token 
+![image](https://user-images.githubusercontent.com/59669851/118735808-1df25700-b839-11eb-838f-e540afd38547.png)
+
+And put it in Graphiql With Authorization in the header name and Bearer + token in the header value
+
+![image](https://user-images.githubusercontent.com/59669851/118735882-3b272580-b839-11eb-99b6-f7c5a8a32631.png)
+
+After doing that you will be able to access all the private queries and mutations
+
+### Private
 
 - Query
 
