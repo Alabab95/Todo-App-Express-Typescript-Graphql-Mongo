@@ -26,7 +26,8 @@ mutation createUser{
 ```
 
 After Signing in grab the token 
-![image](https://user-images.githubusercontent.com/59669851/118735808-1df25700-b839-11eb-838f-e540afd38547.png)
+
+![image](https://user-images.githubusercontent.com/59669851/118736137-b7216d80-b839-11eb-8638-2ec69d855d3b.png)
 
 And put it in Graphiql With Authorization in the header name and Bearer + token in the header value
 
