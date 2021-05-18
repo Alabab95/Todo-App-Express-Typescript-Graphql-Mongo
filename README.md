@@ -5,6 +5,7 @@ Getting Started
 Clone the repo:
 
 git clone https://github.com/Alabab95/Todo-app.git
+
 cd Todo-App-Express-Typescript-Graphql-Mongo
 Install yarn or npm :
 
