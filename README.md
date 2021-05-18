@@ -28,14 +28,13 @@ cp .env.example .env
 
 Note:- Create a .logs folder at the root level of project (every logs goes there after you run the project)
 
-Start server:
 
 # Start server
 npm start
 yarn start
 
 
-Docker
+# Docker
 Using Docker Compose for Development
 # service restarts on file change
 bash bin/development.sh
