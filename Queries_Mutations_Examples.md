@@ -40,6 +40,22 @@ After doing that you will be able to access all the private queries and mutation
 - Query
 
   • getUsers: [User]
+  
+ ```js
+query getUsers{
+  getUsers{
+    fullname
+    email
+    id
+  }
+}
+```
+
+  
+  ![image](https://user-images.githubusercontent.com/59669851/118736311-2d25d480-b83a-11eb-8d91-faf6272c3b1f.png)
+
+  
+  
   • todo(id: ID!): Todo
   • todos: [Todo]
   • personalTodos: [Todo]
