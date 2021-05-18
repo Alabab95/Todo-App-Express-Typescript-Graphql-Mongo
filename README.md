@@ -65,6 +65,7 @@ for windows users :
 docker compose up
 
 for linux users :
+
 docker-compose up
 
 # EndPoints
@@ -73,7 +74,9 @@ docker-compose up
 • Private Graphql Endpoint http://localhost:4040/graphql/private : contains the private queries and mutation , you need to be authentificated to access this endpoint
 
 Note: Please download GraphiQL to get the protected route working .
+
 Graphiql : https://github.com/graphql/graphiql
+
 Note: Need to pass Authorization Bearer Token in Header to access this endpoint obtained from public endpoint while Signup/Login.
 
 http://localhost:4040/graphql/private
