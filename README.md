@@ -7,9 +7,11 @@ Clone the repo:
 git clone https://github.com/Alabab95/Todo-app.git
 
 cd Todo-App-Express-Typescript-Graphql-Mongo
+
 Install yarn or npm :
 
 https://www.npmjs.com/get-npm
+
 npm install -g yarn
 
 Install Mongo:
@@ -37,23 +39,34 @@ Docker
 Using Docker Compose for Development
 # service restarts on file change
 bash bin/development.sh
+
 Building and running with Docker Compose
+
 You need to install Docker Desktop if you are using windows :
+
 https://www.docker.com/products/docker-desktop
+
 if you are using a linux distrubuation 
+
 https://docs.docker.com/engine/install/ubuntu/
 
 # Build docker
 for windows users :
-- docker compose build
+
+docker compose build
+
 for linux users :
-- docker-compose build
+
+docker-compose build
 
 # Run docker
 for windows users :
-- docker compose up
+
+docker compose up
+
 for linux users :
-- docker-compose up
+docker-compose up
+
 # EndPoints
 • Public Graphql Endpoint http://localhost:4040/graphql/public : contains the login and sign up mutations 
 
