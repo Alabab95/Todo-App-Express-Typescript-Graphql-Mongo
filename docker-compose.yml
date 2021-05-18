@@ -1,0 +1,32 @@
+
+version: '3'
+
+services:
+  mymongo:
+    container_name: mongo_imgs
+    image: mongo:latest
+    restart: always
+    ports:
+     - "27017:27017"
+    #networks:
+      #frontend:
+        #ipv4_address: 172.20.0.5
+
+  app-docker:
+    container_name: app-projt
+    build: ./
+    ports:
+     - "8000:8000" 
+    #environment:
+      #- MONGO_HOST_IP=172.20.0.5
+    #networks:
+      #frontend:
+        #ipv4_address: 172.20.0.6
+    depends_on:
+     - mymongo
+
+#networks:
+#  frontend:
+#    ipam:
+#      config:
+#        - subnet: 172.20.0.0/24
