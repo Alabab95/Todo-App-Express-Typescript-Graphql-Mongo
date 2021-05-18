@@ -86,3 +86,4 @@ Note: Need to pass Authorization Bearer Token in Header to access this endpoint 
 http://localhost:8000/graphql/private
 
 List Of Queries & Mutations
+• [Click Me](./Queries_Mutations_Examples.md)
