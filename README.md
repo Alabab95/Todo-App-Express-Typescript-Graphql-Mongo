@@ -31,7 +31,12 @@ Note:- Create a .logs folder at the root level of project (every logs goes there
 
 # Start server
 npm start
+
+or
+
 yarn start
+
+Go to : http://localhost:8000/graphql/public
 
 
 # Docker
@@ -68,9 +73,9 @@ for linux users :
 docker-compose up
 
 # EndPoints
-• Public Graphql Endpoint http://localhost:4040/graphql/public : contains the login and sign up mutations 
+• Public Graphql Endpoint http://localhost:8000/graphql/public : contains the login and sign up mutations 
 
-• Private Graphql Endpoint http://localhost:4040/graphql/private : contains the private queries and mutation , you need to be authentificated to access this endpoint
+• Private Graphql Endpoint http://localhost:8000/graphql/private : contains the private queries and mutation , you need to be authentificated to access this endpoint
 
 Note: Please download GraphiQL to get the protected route working .
 
